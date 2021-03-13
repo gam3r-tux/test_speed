@@ -21,8 +21,7 @@ def isValidLuhnAlgorithm(card):
         aDouble[i] = val
         i = i - 1
     sumDigit = sum(aDouble) % 10
-    print(aDouble)
-    print(sumDigit)
+
     return sumDigit == 0
 
 def GetTypeCard(card):
